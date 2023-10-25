@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34004.107
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemapVisibility", "RemapVisibility\RemapVisibility.csproj", "{2C55C8BF-126E-4FD9-ABE2-A5B464D972BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C55C8BF-126E-4FD9-ABE2-A5B464D972BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C55C8BF-126E-4FD9-ABE2-A5B464D972BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C55C8BF-126E-4FD9-ABE2-A5B464D972BB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2C55C8BF-126E-4FD9-ABE2-A5B464D972BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C55C8BF-126E-4FD9-ABE2-A5B464D972BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C55C8BF-126E-4FD9-ABE2-A5B464D972BB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD0E5403-12D1-4933-8440-D079158EBF5D}
+	EndGlobalSection
+EndGlobal
