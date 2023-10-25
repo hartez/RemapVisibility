@@ -2,7 +2,7 @@
 
 For historical/backward compatibility reasons, MAUI.Controls only supports 2-state visibilty (via the `IsVisible` property). A view is either visible or it is collapsed (meaning it takes up no space).
 
-Some other UI platforms (e.g., WPF and Android) also support a "hidden" visibility state, where the view is not visible but it still takes up space. The underlying MAUI.Core library actually supports all three states on all of the platforms (which is why the Core Visibilty enum has three values). 
+Some other UI platforms (e.g., WPF and Android) also support a "hidden" visibility state, where the view is not visible but it still takes up space. The underlying MAUI.Core library actually supports all three states on all of the platforms (which is why the Core `Visibility` enum has three values). 
 
 Users who want to handle visibility differently in a MAUI.Controls app can do so with some custom code. 
 
