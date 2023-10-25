@@ -9,19 +9,21 @@
 
 		private void OnClicked(object sender, EventArgs e)
 		{
-			var old = (Visibility)TheImage.GetValue(CustomVisibility.VisibilityProperty);
+			// Cycle through the various visibility options
 
-			if (old == Visibility.Visible)
+			var currentVisibility = (Visibility)TheImage.GetValue(CustomVisibility.VisibilityProperty);
+
+			switch (currentVisibility)
 			{
-				TheImage.SetValue(CustomVisibility.VisibilityProperty, Visibility.Hidden);
-			}
-			else if (old == Visibility.Hidden)
-			{
-				TheImage.SetValue(CustomVisibility.VisibilityProperty, Visibility.Collapsed);
-			}
-			else
-			{
-				TheImage.SetValue(CustomVisibility.VisibilityProperty, Visibility.Visible);
+				case Visibility.Visible:
+					TheImage.SetValue(CustomVisibility.VisibilityProperty, Visibility.Hidden);
+					break;
+				case Visibility.Hidden:
+					TheImage.SetValue(CustomVisibility.VisibilityProperty, Visibility.Collapsed);
+					break;
+				default:
+					TheImage.SetValue(CustomVisibility.VisibilityProperty, Visibility.Visible);
+					break;
 			}
 		}
 	}

@@ -24,9 +24,10 @@ namespace RemapVisibility
 				// Make IsVisible have no effect at all
 			});
 
-
+			// Handle our new custom attached property
 			Microsoft.Maui.Handlers.ViewHandler.ViewMapper.Add(CustomVisibility.VisibilityProperty.PropertyName, (handler, view) => {
 
+			// Again, only handling Windows for this example; other platforms are left as an exercise for the reader
 #if WINDOWS
 				var opacity = view.Opacity;
 				var visibility = (Visibility)(((VisualElement)view).GetValue(CustomVisibility.VisibilityProperty));
