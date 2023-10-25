@@ -6,5 +6,10 @@
 		{
 			InitializeComponent();
 		}
+
+		private void OnClicked(object sender, EventArgs e)
+		{
+			TheImage.IsVisible = !TheImage.IsVisible;
+		}
 	}
 }
